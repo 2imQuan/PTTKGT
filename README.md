@@ -25,25 +25,25 @@ Benchmark Tool).
 
 
 
-TIMELINE:
-Ngày 16/6 đến 23h59 ngày 17/6: 
-Người 2,3,4: tóm tắt phần lý thuyết các thuật toán để gửi cho Người 1
-Người 1: Thiết kế slide gồm 7 phần cơ bản sau(có thể thêm để hay hơn):
-Cơ sở lý thuyết 
-Phân tích bài toán 
-Thiết kế thuật toán 
-Cài đặt chương trình 
-Thử nghiệm đánh giá 
-Kết luận và hướng phát triển 
-Đánh giá thành viên 
-0h00 Ngày 18/ - 23h59p Ngày 28/6:
-Người 2: Bubble + Insertion Sort hoàn chỉnh, có đếm comparisons/swaps
-Người 3: Quick + Shell Sort hoàn chỉnh, có đếm comparisons/swaps
-Người 4: Merge Sort + 4 hàm sinh dữ liệu hoàn chỉnh
-Người 5: Layout UI xong: dropdown, slider, checkbox, nút Run, bảng kết quả
-Người 6: Khung biểu đồ vẽ được, chờ ghép logic 
-0h00 Ngày 29/6 - 23h59p Ngày 3/7:
-Người 1: Điền số liệu thực nghiệm vào slide (bảng so sánh, biểu đồ), hoàn thiện toàn bộ slide
+# TIMELINE:
+## Ngày 16/6 đến 23h59 ngày 17/6: 
+### Người 2,3,4: tóm tắt phần lý thuyết các thuật toán để gửi cho Người 1
+### Người 1: Thiết kế slide gồm 7 phần cơ bản sau(có thể thêm để hay hơn):
+        Cơ sở lý thuyết 
+        Phân tích bài toán 
+        Thiết kế thuật toán 
+        Cài đặt chương trình 
+        Thử nghiệm đánh giá 
+        Kết luận và hướng phát triển 
+        Đánh giá thành viên 
+## 0h00 Ngày 18/ - 23h59p Ngày 28/6:
+### Người 2: Bubble + Insertion Sort hoàn chỉnh, có đếm comparisons/swaps
+### Người 3: Quick + Shell Sort hoàn chỉnh, có đếm comparisons/swaps
+### Người 4: Merge Sort + 4 hàm sinh dữ liệu hoàn chỉnh
+### Người 5: Layout UI xong: dropdown, slider, checkbox, nút Run, bảng kết quả
+### Người 6: Khung biểu đồ vẽ được, chờ ghép logic 
+## 0h00 Ngày 29/6 - 23h59p Ngày 3/7:
+### Người 1: Điền số liệu thực nghiệm vào slide (bảng so sánh, biểu đồ), hoàn thiện toàn bộ slide
 Người 2, 3, 4: Fix bug nếu thuật toán của mình bị lỗi khi ghép 
 Người 5: Hỗ trợ người 6, fix bug UI
 Người 6: Ghép 5 thuật toán vào UI, chạy đa luồng, test
