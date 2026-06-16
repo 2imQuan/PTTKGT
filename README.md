@@ -44,6 +44,6 @@ Benchmark Tool).
 ### Người 6: Khung biểu đồ vẽ được, chờ ghép logic 
 ## 0h00 Ngày 29/6 - 23h59p Ngày 3/7:
 ### Người 1: Điền số liệu thực nghiệm vào slide (bảng so sánh, biểu đồ), hoàn thiện toàn bộ slide
-Người 2, 3, 4: Fix bug nếu thuật toán của mình bị lỗi khi ghép 
-Người 5: Hỗ trợ người 6, fix bug UI
-Người 6: Ghép 5 thuật toán vào UI, chạy đa luồng, test
+### Người 2, 3, 4: Fix bug nếu thuật toán của mình bị lỗi khi ghép 
+### Người 5: Hỗ trợ người 6, fix bug UI
+### Người 6: Ghép 5 thuật toán vào UI, chạy đa luồng, test
