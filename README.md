@@ -2,24 +2,24 @@
 Chủ đề 12. Công cụ so sánh hiệu năng các giải thuật sắp xếp (Algorithm 
 Benchmark Tool).
 ## NHIỆM VỤ
-Người 1
-Slide + Thuyết trình 
-Làm toàn bộ slide PowerPoint, chuẩn bị nội dung thuyết trình, tổng hợp kết quả từ các bạn khác 
-Người 2
-Bubble Sort + Insertion Sort 
-Code 2 thuật toán, đếm comparisons/swaps, viết phần lý thuyết 2 thuật toán này cho bạn làm slide 
-Người 3
-Quick Sort + Shell Sort 
-Code 2 thuật toán, đếm comparisons/swaps, viết phần lý thuyết 2 thuật toán này cho bạn làm slide 
-Người 4
-Merge Sort + sinh dữ liệu 
-Code Merge Sort + viết hàm sinh 4 loại dữ liệu (random, sorted, reversed, partial) 
-Người 5
-UI WinUI 3 – layout + controls 
-Setup project, làm giao diện: dropdown, slider, checkbox chọn thuật toán, nút Run, bảng kết quả 
-Người 6
-UI WinUI 3 – biểu đồ + ghép logic + Trình bày demo 
-Vẽ line chart real-time, kết nối 5 thuật toán vào UI, chạy đa luồng 
+### Người 1
+    Slide + Thuyết trình 
+    Làm toàn bộ slide PowerPoint, chuẩn bị nội dung thuyết trình, tổng hợp kết quả từ các bạn khác 
+### Người 2
+    Bubble Sort + Insertion Sort 
+    Code 2 thuật toán, đếm comparisons/swaps, viết phần lý thuyết 2 thuật toán này cho bạn làm slide 
+### Người 3
+    Quick Sort + Shell Sort 
+    Code 2 thuật toán, đếm comparisons/swaps, viết phần lý thuyết 2 thuật toán này cho bạn làm slide 
+### Người 4
+    Merge Sort + sinh dữ liệu 
+    Code Merge Sort + viết hàm sinh 4 loại dữ liệu (random, sorted, reversed, partial) 
+### Người 5
+    UI WinUI 3 – layout + controls 
+    Setup project, làm giao diện: dropdown, slider, checkbox chọn thuật toán, nút Run, bảng kết quả 
+### Người 6
+    UI WinUI 3 – biểu đồ + ghép logic + Trình bày demo 
+    Vẽ line chart real-time, kết nối 5 thuật toán vào UI, chạy đa luồng 
 
 
 
