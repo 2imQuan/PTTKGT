@@ -26,7 +26,7 @@ Benchmark Tool).
 
 
 # TIMELINE:
-## Ngày 16/6 đến 23h59 ngày 17/6: 
+## 0h00 Ngày 17/6 đến 11h59 ngày 18/6: 
 ### Người 2,3,4: tóm tắt phần lý thuyết các thuật toán để gửi cho Người 1
 ### Người 1: Thiết kế slide gồm 7 phần cơ bản sau(có thể thêm để hay hơn):
         Cơ sở lý thuyết 
@@ -36,7 +36,7 @@ Benchmark Tool).
         Thử nghiệm đánh giá 
         Kết luận và hướng phát triển 
         Đánh giá thành viên 
-## 0h00 Ngày 18/ - 23h59p Ngày 28/6:
+## 12h Ngày 18/6 - 23h59p Ngày 28/6:
 ### Người 2: Bubble + Insertion Sort hoàn chỉnh, có đếm comparisons/swaps
 ### Người 3: Quick + Shell Sort hoàn chỉnh, có đếm comparisons/swaps
 ### Người 4: Merge Sort + 4 hàm sinh dữ liệu hoàn chỉnh
