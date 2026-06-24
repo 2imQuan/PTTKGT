@@ -1,0 +1,13 @@
+packages/
+.vs/
+x64/
+bin/
+obj/
+Debug/
+Release/
+*.pdb
+*.exe
+*.dll
+*.pch
+*.ipch
+*.VC.db

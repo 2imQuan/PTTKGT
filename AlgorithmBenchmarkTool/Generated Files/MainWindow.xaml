@@ -1,0 +1,70 @@
+﻿<Window
+    x:Class="AlgorithmBenchmarkTool.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AlgorithmBenchmarkTool">
+
+    <Grid>
+
+        <StackPanel Margin="20"
+                    Spacing="10">
+
+            <TextBlock
+                Text="Algorithm Benchmark Tool"
+                FontSize="28"/>
+
+            <TextBlock Text="Data Type"/>
+
+            <ComboBox x:ConnectionId='2' x:Name="DataTypeBox">
+
+                <ComboBoxItem Content="Random"/>
+                <ComboBoxItem Content="Sorted"/>
+                <ComboBoxItem Content="Reversed"/>
+                <ComboBoxItem Content="Partial"/>
+
+            </ComboBox>
+
+            <TextBlock Text="Data Size"/>
+
+            <Slider x:ConnectionId='3'
+                x:Name="SizeSlider"
+                Minimum="100"
+                Maximum="10000"
+                Value="1000"/>
+
+            <TextBlock Text="Algorithms"/>
+
+            <CheckBox x:ConnectionId='4'
+                x:Name="BubbleBox"
+                Content="Bubble Sort"/>
+
+            <CheckBox x:ConnectionId='5'
+                x:Name="InsertionBox"
+                Content="Insertion Sort"/>
+
+            <CheckBox x:ConnectionId='6'
+                x:Name="QuickBox"
+                Content="Quick Sort"/>
+
+            <CheckBox x:ConnectionId='7'
+                x:Name="MergeBox"
+                Content="Merge Sort"/>
+
+            <CheckBox x:ConnectionId='8'
+                x:Name="ShellBox"
+                Content="Shell Sort"/>
+
+            <Button x:ConnectionId='9'
+                x:Name="RunButton"
+                Content="RUN"
+                                       />
+
+            <ListView x:ConnectionId='10'
+                x:Name="ResultList"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</Window>
+

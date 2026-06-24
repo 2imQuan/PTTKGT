@@ -1,0 +1,69 @@
+<Window
+    x:Class="AlgorithmBenchmarkTool.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AlgorithmBenchmarkTool">
+
+    <Grid>
+
+        <StackPanel Margin="20"
+                    Spacing="10">
+
+            <TextBlock
+                Text="Algorithm Benchmark Tool"
+                FontSize="28"/>
+
+            <TextBlock Text="Data Type"/>
+
+            <ComboBox x:Name="DataTypeBox">
+
+                <ComboBoxItem Content="Random"/>
+                <ComboBoxItem Content="Sorted"/>
+                <ComboBoxItem Content="Reversed"/>
+                <ComboBoxItem Content="Partial"/>
+
+            </ComboBox>
+
+            <TextBlock Text="Data Size"/>
+
+            <Slider
+                x:Name="SizeSlider"
+                Minimum="100"
+                Maximum="10000"
+                Value="1000"/>
+
+            <TextBlock Text="Algorithms"/>
+
+            <CheckBox
+                x:Name="BubbleBox"
+                Content="Bubble Sort"/>
+
+            <CheckBox
+                x:Name="InsertionBox"
+                Content="Insertion Sort"/>
+
+            <CheckBox
+                x:Name="QuickBox"
+                Content="Quick Sort"/>
+
+            <CheckBox
+                x:Name="MergeBox"
+                Content="Merge Sort"/>
+
+            <CheckBox
+                x:Name="ShellBox"
+                Content="Shell Sort"/>
+
+            <Button
+                x:Name="RunButton"
+                Content="RUN"
+                Click="RunButton_Click"/>
+
+            <ListView
+                x:Name="ResultList"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</Window>
