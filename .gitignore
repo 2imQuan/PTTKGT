@@ -67,3 +67,16 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Visual Studio & WinUI 3 Build Directories
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+ARM64/
+Win32/
+AlgorithmBenchmarkTool/Generated Files/
+AlgorithmBenchmarkTool/x64/
+AlgorithmBenchmarkTool/ARM64/
+AlgorithmBenchmarkTool/Win32/
+*.user
