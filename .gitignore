@@ -80,3 +80,6 @@ AlgorithmBenchmarkTool/x64/
 AlgorithmBenchmarkTool/ARM64/
 AlgorithmBenchmarkTool/Win32/
 *.user
+
+# NuGet restore output (khoi phuc bang 'nuget restore' / VS, khong commit ~1GB)
+packages/

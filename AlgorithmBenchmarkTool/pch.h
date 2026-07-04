@@ -1,4 +1,10 @@
-#pragma once
+﻿#pragma once
+
+// Chan macro min/max cua windows.h de khong pha vo std::min / std::max
+#ifndef NOMINMAX
+#define NOMINMAX
+#endif
+
 #include <windows.h>
 #include <unknwn.h>
 #include <restrictederrorinfo.h>
@@ -23,3 +29,12 @@
 #include <winrt/Microsoft.UI.Xaml.Shapes.h>
 #include <winrt/Microsoft.UI.Dispatching.h>
 #include <wil/cppwinrt_helpers.h>
+
+// --- Win2D (them cho phan ve chart cua Nguoi 6) ---
+// Yeu cau da cai NuGet: Microsoft.Graphics.Win2D
+#include <winrt/Microsoft.UI.h>                          // ColorHelper / Colors
+#include <winrt/Windows.UI.h>                            // Windows::UI::Color
+#include <winrt/Microsoft.Graphics.Canvas.h>
+#include <winrt/Microsoft.Graphics.Canvas.UI.Xaml.h>     // CanvasControl
+#include <winrt/Microsoft.Graphics.Canvas.Text.h>
+#include <winrt/Microsoft.Graphics.Canvas.Geometry.h>     // CanvasStrokeStyle (net dut)
